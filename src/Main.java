@@ -91,38 +91,38 @@ public class Main {
                 switch (carreauJDeux) {
                     case "1":
                         reponse = "1";
-                        grille[0][0] = "X";
+                        grille[0][0] = "O";
                         break;
                     case "2":
                         reponse = "2";
-                        grille[0][1] = "X"
+                        grille[0][1] = "O"
                         break;
                     case "3":
                         reponse = "3";
-                        grille[0][2] = "X"
+                        grille[0][2] = "O"
                         break;
                     case "4":
                         reponse = "4";
-                        grille[1][0] = "X"
+                        grille[1][0] = "O"
                         break;
                     case "5":
                         reponse = "5";
-                        grille[1][1] = "X"
+                        grille[1][1] = "O"
                     case "6":
                         reponse = "6";
-                        grille[1][2] = "X"
+                        grille[1][2] = "O"
                         break;
                     case "7":
                         reponse = "7";
-                        grille[2][0] = "X"
+                        grille[2][0] = "O"
                         break;
                     case "8":
                         reponse = "8";
-                        grille[2][1] = "X"
+                        grille[2][1] = "O"
                         break;
                     case "9":
                         reponse = "9";
-                        grille[2][2] = "X"
+                        grille[2][2] = "O"
                         break;
                     default:
                         reponse = "Erreur...";
@@ -133,7 +133,7 @@ public class Main {
                 } else {
                     System.out.println("Vous avez choisi la case " + reponse);
                 }
-                
+
             }
 
         }
