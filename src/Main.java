@@ -12,16 +12,12 @@ public class Main {
         String nameJDeux = "";
         nameJDeux = clavier.nextLine();
 
-        int[][] grille = new int [3][3]; // grille à deux dimensions : à 3 unités d'abscisse et 3 d'ordonnées
-        int valeur = 1;
-
-        for(int i = 0; i<3 ; i++){
-
-            for (int j = 0; j<3 ; j++){
-                grille[i][j] = valeur++;
-            }
-        }
-
+        char[][] grille ={
+                {'1','2','3'},
+                {'4','5','6'},
+                {'7','8','9',},
+        }; // grille à deux dimensions : à 3 unités d'abscisse et 3 d'ordonnées
+        
 
 
 
